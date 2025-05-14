@@ -8,6 +8,39 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <script defer src="script.js"></script>
+  <style>
+    .navbar {
+      background-color: #4b0082;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .navbar ul li {
+      display: inline;
+    }
+    .navbar ul li a {
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      background: linear-gradient(145deg, #6a0dad, #8a2be2);
+      transition: background 0.3s, transform 0.3s;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+    .navbar ul li a:hover {
+      background: linear-gradient(145deg, #9370db, #ba55d3);
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 
 <body>
